@@ -11,7 +11,7 @@ import SwiftUI
 struct counterApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CircleImage()
         }
     }
 }

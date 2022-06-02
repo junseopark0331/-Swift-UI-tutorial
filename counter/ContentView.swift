@@ -9,8 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack(alignment: .leading) {
+            Text("Turtle Rock")
+                .font(.body)
+                .fontWeight(.semibold)
+                .foregroundColor(.green)
+                .padding()
+            HStack {
+                Text("Joshua Tree National Park")
+                    .font(.subheadline)
+                Spacer()
+                Text("California")
+                    .font(.subheadline)
+            }
+        }
     }
 }
 
@@ -19,3 +31,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
